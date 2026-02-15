@@ -12,3 +12,6 @@ export const addTask = createAction("tasks/addTask", (text) => {
 
 export const deleteTask = createAction("tasks/deleteTask");
 export const toggleTask = createAction("tasks/toggleTask");
+
+export const setStatusFilter = createAction("filters/setStatus");
+export const setSearchFilter = createAction("filters/setSearch");

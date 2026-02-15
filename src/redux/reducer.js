@@ -1,5 +1,5 @@
 import { createReducer } from "@reduxjs/toolkit";
-import { addTask, deleteTask, toggleTask } from "./actions";
+import { addTask, deleteTask, toggleTask, setFilter } from "./actions";
 
 const initialState = [];
 
